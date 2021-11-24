@@ -1,0 +1,40 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="FrontEnd/Styles/MainStyle.css">
+        <link rel="shortcut icon" href="FrontEnd/Assets/titleLOGO.jpg"> 
+        <title>ArchipelagoCrazy</title>
+    </head>
+    <body>
+        <header>
+            <div id="navBar">
+                <span id="span1">
+                    ArchipelagoCrazy
+                </span>
+                <div id="div1">
+                    <ul>
+                        <li><a href="LandingPage.html">Home</a></li>
+                        <li><a href="PackagesPage.html">Packages</a></li>
+                        <li><a href="IslandsPage.html">Islands</a></li>
+                        <li><a href="SeaAdventuresPage.html">Sea Adventures</a></li>
+                        <li><a href="LandAdventuresPage.html">Land Adventures</a></li>
+                        <li><a href="AboutUsPage.html">About Us</a></li>
+                        <li id="login"><a href="Login.html">Login</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </header>
+        
+        <footer>
+            <div>
+                <p>ArchipelagoCrazy</p>HotLine: xxxxxxxxxx <br>email: sageganidu@gmail.com<br>
+                <a href="SiteMapPage.html">Site map</a>
+    
+            </div>
+            
+        </footer>
+
+    </body>
+</html>

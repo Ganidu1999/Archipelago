@@ -1,0 +1,6 @@
+body{
+    text-align: center;
+}
+#login a:focus{
+    color: chartreuse;
+}

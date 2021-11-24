@@ -1,0 +1,20 @@
+package com.Archipelago;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class LoginServelet extends HttpServlet{
+	public void service(HttpServletRequest req,HttpServletResponse res) throws IOException {
+		String email = req.getParameter("email");
+		String password=req.getParameter("password");
+		System.out.println("login success "+"email: "+email+",Passowrd: "+password);
+		PrintWriter out = res.getWriter();
+		out.println("login success "+"email: "+email+",Passowrd: "+password);
+		
+	}
+
+}

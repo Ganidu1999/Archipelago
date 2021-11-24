@@ -1,0 +1,63 @@
+#navBar{
+    background-color:cornflowerblue;
+    border: 3px solid cornflowerblue;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+}
+#span1{
+    height: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+#span2{
+
+}
+#navBar #login{
+    float:right;
+}
+/* #div1{
+    padding-bottom:30px;
+    display: flex;
+    justify-content: center; */
+#navBar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#navBar li {
+    float:left;
+}
+
+#navBar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navBar li a:hover {
+    background-color: #111;
+}
+
+body{
+    margin-top: 170px;
+}
+
+footer{
+    background-color:cornflowerblue;
+    text-align: center;
+}
+/* #navImage{
+    height: 60px;
+    width: 100%;
+    display:block;
+    
+} */
