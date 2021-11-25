@@ -20,15 +20,15 @@ public class LoginServelet extends HttpServlet{
 		
 		System.out.println("enter 1 or 0 : ");
 		Scanner sc=new Scanner(System.in);
-		if(sc.equals("0")) {
+//		if(sc.equals("0")) {
 			RequestDispatcher rd=req.getRequestDispatcher("signup");
 			rd.forward(req, res);
 			System.out.println("redirected");
-		}else {
-			//System.out.println("login success "+"email: "+email+",Password: "+password);
-			PrintWriter out = res.getWriter();
-			out.println("login success "+"email: "+email+",Password: "+password);
-		}
+//		}else if (sc.equals("1")){
+//			//System.out.println("login success "+"email: "+email+",Password: "+password);
+//			PrintWriter out = res.getWriter();
+//			out.println("login success "+"email: "+email+",Password: "+password);
+//		}
 		
 	}
 
